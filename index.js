@@ -41,7 +41,7 @@ const server = app.listen(process.env.PORT, () => {
 // connect Socket.io
 const io = socket(server, {
   cors: {
-    origin: "https://vasylartymovych.github.io/chat-client/",
+    origin: "https://vasylartymovych.github.io",
     credentials: true,
   },
 });
